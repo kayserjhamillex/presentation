@@ -1,0 +1,30 @@
+/* @import url('https://fonts.googleapis.com/css?family=Lobster|Montserrat&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Nerko One", cursive;
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Lobster', cursive; */
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor{
+    width: 100%;
+    text-align: center;
+}
+.contenedor h2{
+    font-size: 550px;
+    font-weight: bold;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-image: url(https://w.wallhaven.cc/full/3l/wallhaven-3lv8j6.jpg);
+    margin-bottom: 20px;
+    background-attachment: fixed;
+}
